@@ -5,9 +5,12 @@
   "homepage": "https://dmytrorabenko.github.io/carpatianmontains",
   "main": "human_animation.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
