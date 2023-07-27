@@ -1,0 +1,13 @@
+{
+  "name": "carpatian_montains_landing",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://dmytrorabenko.github.io/carpatianmontains",
+  "main": "human_animation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
