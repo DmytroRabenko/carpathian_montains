@@ -99,7 +99,6 @@ body._noScroll {
   max-width: 1900px;
   height: 100%;
   margin: 0 auto;
-  z-index: 2;
 }
 
 .header_container._visit {
@@ -274,7 +273,6 @@ header {
   background-position: top, top;
   position: relative;
   overflow: hidden;
-  z-index: 2;
 }
 
 .content {
@@ -517,7 +515,6 @@ footer .bg_container {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  z-index: 2;
 }
 footer .content {
   width: 100%;
@@ -733,50 +730,4 @@ footer .content .contacts a img {
     height: -moz-fit-content;
     height: fit-content;
   }
-}
-.human_animation_container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.absolute-element {
-  width: 70px;
-  height: 70px;
-  background-image: url(../img/human2і.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 200;
-  position: absolute;
-  top: 90%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  transition: all linear 7s;
-}
-
-/* Стилі для ліній переміщення */
-.line-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.line {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: url(../img/icon-position.png);
-  background-size: contain;
-  background-position: top;
-  background-repeat: no-repeat;
-  transform-origin: center;
-  transition: transform 20ms linear;
-  opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */

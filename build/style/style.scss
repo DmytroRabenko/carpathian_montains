@@ -38,7 +38,6 @@ body._noScroll{
     max-width: 1900px;
     height: 100%;
     margin: 0 auto;
-    z-index: 2;
 }
 .header_container._visit{
     background: url(../img/brid.webp);
@@ -145,7 +144,6 @@ header{
     font-weight: 700;
     color: $color_white;
     text-shadow: 0 0 5px $color_green;
-
     transform: translate(0px, 120%);
     opacity: 0;
     transition: all ease .8s;
@@ -205,7 +203,6 @@ header{
     background-position: top, top;
     position: relative;
     overflow: hidden;
-    z-index: 2;
 }
 .content{
     margin: 0 auto;
@@ -445,7 +442,6 @@ footer{
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        z-index: 2;
     }
     .content{
         width: 100%;
@@ -453,7 +449,6 @@ footer{
         align-items: flex-end;
         padding: 0 1rem;
         font-weight: 500;
-       
         .logo a img{
             width: 14rem;
         }
@@ -698,55 +693,4 @@ footer{
     }
 }
 
-
-
-.human_animation_container{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-.absolute-element{
-    width: 70px;
-    height: 70px;
-    background-image: url(../img/human2і.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 200;
-    position: absolute;
-    top: 90%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-    transition: all linear 7s;
-}
-
-
-/* Стилі для ліній переміщення */
-.line-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 1;
-  }
-  
-  .line {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: url(../img/icon-position.png);
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
-    transform-origin: center;
-    transition: transform 20ms linear;
-    opacity: .7;
-  }
-  
 
